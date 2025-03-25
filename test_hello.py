@@ -1,6 +1,11 @@
 
-
+import streamlit as st
 import os
 
-print("Hello to You from GIt")
+
+
+st.title("First Test App")
+st.sidebar.title("This is sidebar ")
+
+st.text("Hello from First APP")
 
